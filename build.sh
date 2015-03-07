@@ -42,7 +42,7 @@ if [ -n "$DEBUG" ] ; then
     debug=echo
 fi
 
-TMPFILE=$(tempfile)
+TMPFILE=$(mktemp)
 
 EYECATCHER=$(( 0x43415050 )) # ascii 'CAPP'
 VERSION=1
