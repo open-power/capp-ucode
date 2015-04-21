@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 
 # #define PNOR_SUBPART_HEADER_SIZE 0x1000
