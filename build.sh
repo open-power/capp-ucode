@@ -22,27 +22,27 @@ phb3=0
 
 phb3=$(( $phb3 + 1))
 phb3id[$phb3]=$(( 0x100ea ))
-phb3file[$phb3]="CAPPUC_P8_T0V10.bin"
+phb3file[$phb3]="CAPPUC_P8V10.bin"
 
 phb3=$(( $phb3 + 1))
 phb3id[$phb3]=$(( 0x200ea ))
-phb3file[$phb3]="CAPPUC_P8_T0V20.bin"
+phb3file[$phb3]="CAPPUC_P8V20.bin"
 
 phb3=$(( $phb3 + 1))
 phb3id[$phb3]=$(( 0x200ef ))
-phb3file[$phb3]="CAPPUC_P8_T0M20.bin"
+phb3file[$phb3]="CAPPUC_P8M20.bin"
 
 phb3=$(( $phb3 + 1))
 phb3id[$phb3]=$(( 0x201ef ))
-phb3file[$phb3]="CAPPUC_P8_T0M21.bin"
+phb3file[$phb3]="CAPPUC_P8M21.bin"
 
 phb3=$(( $phb3 + 1))
 phb3id[$phb3]=$(( 0x100d3 ))
-phb3file[$phb3]="CAPPUC_P8_T0N10.bin"
+phb3file[$phb3]="CAPPUC_P8N10.bin"
 
 phb3=$(( $phb3 + 1))
 phb3id[$phb3]=$(( 0x100d1 ))
-phb3file[$phb3]="CAPPUC_P9_T0N10.bin"
+phb3file[$phb3]="CAPPUC_P9N10.bin"
 
 debug=true
 if [ -n "$DEBUG" ] ; then
