@@ -44,6 +44,11 @@ phb3=$(( $phb3 + 1))
 phb3id[$phb3]=$(( 0x100d1 ))
 phb3file[$phb3]="CAPPUC_P9N10.bin"
 
+phb3=$(( $phb3 + 1))
+phb3id[$phb3]=$(( 0x200d1 ))
+phb3file[$phb3]="CAPPUC_P9N20.bin"
+
+
 debug=true
 if [ -n "$DEBUG" ] ; then
     debug=echo
