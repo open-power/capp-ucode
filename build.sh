@@ -78,7 +78,7 @@ for i in $(seq $NUMBEROFTOCENTRIES) ; do
 	sectionfile[$sections]=${phb3file[$i]}
 	sectionsize[$sections]=$( stat -c %s ${sectionfile[$sections]} )
 	sectionoffset[$sections]=$(align $offset)
-	offset=$(( $offset + ${sectionsize[$sections]} ))
+	offset=$(( ${sectionoffset[$sections]} + ${sectionsize[$sections]} ))
 	$debug Adding section ${phb3file[$i]} size: ${sectionsize[$sections]} offset: ${sectionoffset[$sections]}
 	section=$sections
     fi
