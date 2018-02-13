@@ -1,4 +1,4 @@
-This is the CAPP microcode for POWER8 and POWER9 systems.
+This is the CAPP microcode for **POWER8** and **POWER9** systems.
 
 This needs to be loaded into the CAPP unit on a POWER8 or POWER9 using
 skiboot for a system to use CAPI.
@@ -11,3 +11,6 @@ To build, do:
    ./build.sh
 
 Which will create a single file cappucode.bin.
+
+DEBUG env variable can also be set to to know which ucode blobs are being
+merged to generate the CAPP ucode blob.
