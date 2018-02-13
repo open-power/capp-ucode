@@ -1,0 +1,4 @@
+# It's not really C, but this is the closest Travis has
+language: c
+
+script: ./build.sh
