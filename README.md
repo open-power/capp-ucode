@@ -12,5 +12,5 @@ To build, do:
 
 Which will create a single file cappucode.bin.
 
-DEBUG env variable can also be set to to know which ucode blobs are being
+DEBUG env variable can also be set to know which ucode blobs are being
 merged to generate the CAPP ucode blob.
